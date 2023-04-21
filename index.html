@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Neuro2.png">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Neuro</title>
+    <style>
+      html,
+body {
+  height: 100%;
+  background-color: #eee;
+}
+
+#page-content {
+  flex: 1 0 auto;
+
+}
+#div1{
+ width: 100%;
+ height: 800px;
+ margin-top: -5%;
+text-align: center;
+background-image: url('https://www.substorm.ai/wp-content/uploads/2021/11/AdobeStock_463680073-2048x908.jpeg');
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-repeat:no-repeat;
+    background-position: 0% 50%;
+color: white;
+font-size: 100px;
+     }
+     #div2{
+    width: 40%;
+    height: 300px;
+    background-color: gray;
+    margin-top: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    border: solid 0px;
+    border-radius: 2px;
+    margin-left: 10%;
+    }
+    #div3{
+    width: 40%;
+    height: 500px;
+    background-color: gray;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    border: solid 0px;
+    border-radius: 2px;
+    margin-left: 50%;
+    }
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3f3f3f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#f9f9f9;
+  padding: 20px;
+}
+#div4{
+
+
+width: 100%;
+height: 600px;
+background-color: #eee;
+padding: 20px;
+text-align: center;
+
+}
+.register .nav-tabs .nav-link:hover{
+                border: none;
+            }
+            .text-align{
+                margin-top: -3%;
+                margin-bottom: -9%;
+
+                padding: 10%;
+                margin-left: 30%;
+            }
+            .form-new{
+                margin-right: 22%;
+                margin-left: 20%;
+            }
+            .register-heading{
+                margin-left: 21%;
+                margin-bottom: 10%;
+                color: #e9ecef;
+            }
+            .register-heading h1{
+                margin-left: 21%;
+                margin-bottom: 10%;
+                color: #e9ecef;
+            }
+            .register{
+                background: -webkit-linear-gradient(left, #444444, #c9c9c9);
+                margin-top: 3%;
+                padding: 3%;
+                border-radius: 2.5rem;
+            }
+            .btnSubmit
+            {
+                width: 100%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                color: #fff;
+                background-color: #03612e;
+                border: none;
+                cursor: pointer;
+                margin-right: 6%;
+                color: rgb(246, 246, 252);
+                margin-top: 4%;
+            }
+            footer {
+    text-align:center;
+    padding: 15px;
+    background-color: #1c1c1c;
+    height: 60px;
+    color: white;
+}
+.container1{
+
+margin-top: 5%;
+width: 90%;
+padding: 10px;
+margin-left: 5%;
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width: 820px) {
+  .container1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .container1 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container1 {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .container1 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .container1 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 275px) {
+  .container1 {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  #div1 p {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .form-group {
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .form-group {
+    width: 180%;
+    margin-left: -35%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .form-group {
+    width: 170%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .form-group {
+    width: 190%;
+    margin-left: -35%;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+  <header id="navbar">
+    <nav class="navbar-container container">
+      <a href="home.html" class="home-link">
+        <div id="logo">
+        <img src="Neuro.png" style="width: 20%;">
+    </div>
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#rólunk">Rólunk</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="termekeink.html">Termékeink</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#elérhetőség">Elérhetőség</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="nikee.html">Nike</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="adidas.html">Adidas</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <script>
+    const navbarToggle = navbar.querySelector("#navbar-toggle");
+const navbarMenu = document.querySelector("#navbar-menu");
+const navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
+let isNavbarExpanded = navbarToggle.getAttribute("aria-expanded") === "true";
+
+const toggleNavbarVisibility = () => {
+isNavbarExpanded = !isNavbarExpanded;
+navbarToggle.setAttribute("aria-expanded", isNavbarExpanded);
+};
+
+navbarToggle.addEventListener("click", toggleNavbarVisibility);
+
+navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
+navbarMenu.addEventListener("click", toggleNavbarVisibility);
+</script>
+<br>
+ <div id="div1">
+  <br>
+  <br>
+<p>Neuro</p>
+<h1 id="rólunk">Kényelem és stílus egy helyen</h1>
+ </div>
+ <div class="container1">
+  <div class="row">
+    <div class="col-sm">
+      <br>
+     <h2>Rólunk</h2>
+     <br>
+     <p>Üdvözöljük a Neuro cipő és ruha webshopban, ahol stílus és kényelem találkozik! Célunk, hogy minden vásárlónk számára olyan cipőket és ruhákat kínáljunk, amelyekkel nem csak jól néznek ki, de kényelmesen is érzik magukat. Az általunk forgalmazott termékek a legjobb minőségű anyagokból készülnek, hogy biztosítsák a hosszú élettartamot és a megfelelő kényelmet.</p>
+    </div>
+    <div class="col-sm">
+      <br>
+     <h2>Kapcsolat</h2>
+     <br>
+     <p>Telefonszám<br>
+      +36202462052<br>
+      +36202422671
+    </p>
+    <p>E-mail cím</p>
+    <p>neurohungary@gmail.com</p>
+    </div>
+  </div>
+</div>
+ <br>
+ <div id="div4">
+              <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <h3 style="color: black;" id="elérhetőség">Kapcsolat felvétel</h3>
+                  <br>
+                  <div class="row register-form">
+                      <div class="col-md-12">
+                          <form method="post" autocomplete="off" name="google-sheet">
+                              <div class="form-group">
+                                  <input type="text" name="Name" class="form-control" placeholder="Teljes név" value="" required=""/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" name="Email" class="form-control" placeholder="E-mail cím" value="" required=""/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" style="height: 100px;" name="Phone" class="form-control" placeholder="Üzenet" value="" required=""/>
+                              </div>
+                              <div class="form-group">
+                                  <input type="submit" name="submit" class="btnSubmit btn-block" value="Küldés" />
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer style="background-color: black;"> <small>Copyright © Neuro | +36202462052</small></footer>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxNI8vlpQwGJ1ZCX3o--m8tIpJE1K34W__gsy1D8g9DpvZpudPmEzZ1hkJaEvpZU0Ah/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Köszönjük, hogy felvette a kapcsolatot velünk. Probálunk rá hamarosan válaszolni"))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          
+     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
